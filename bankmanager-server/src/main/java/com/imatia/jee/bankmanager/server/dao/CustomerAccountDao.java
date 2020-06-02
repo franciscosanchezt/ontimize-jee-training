@@ -11,6 +11,8 @@ import com.ontimize.jee.server.dao.jdbc.OntimizeJdbcDaoSupport;
 @ConfigurationFile(configurationFile = "base-dao/CustomerAccountDao.xml", configurationFilePlaceholder = "base-dao/placeholders.properties")
 public class CustomerAccountDao extends OntimizeJdbcDaoSupport {
 
+    public static final String QUERY_VCUSTOMERACCOUNT = "CUSTOMERACCOUNT";
+
     public CustomerAccountDao() {
         super();
     }
